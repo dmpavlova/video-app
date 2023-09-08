@@ -12,7 +12,7 @@ export type MovieObject = {
 export const data: MovieObject[] = [
   {
     id: 1,
-    rating: 83,
+    rating: 23,
     name: "Top Gun: Maverick (2022)",
     image: firstMovie,
     category: 'Боевики'

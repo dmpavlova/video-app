@@ -4,6 +4,7 @@ export const Rating = styled.p`
   color: #e1e1e1;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
+  font-weight: bold;
   text-align: end;
-  margin: 5px;
+  margin: 5px;  
 `;

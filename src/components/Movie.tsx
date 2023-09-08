@@ -24,9 +24,9 @@ export function Movie({ id, image, rating, name }: MovieProps): JSX.Element {
   return (
     <Container onMouseEnter={()=>setPoster(mov)} onMouseLeave={()=>setPoster(image)} key={id}>
       <Image src={poster} alt="movie" />
-      <Video/>
+     {/*  <Video/> */}
       <button><Plus src={plus}/></button>
-      <Rating>
+      <Rating style={{color: rating>50? 'green' : 'red'}}>
         {rating}
         <TotalRating>/100</TotalRating>
       </Rating>
